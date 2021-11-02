@@ -150,10 +150,6 @@ header .line{
 .second--banner--content{
     padding: 80px;
 }
-.second--banner--quote{
-    margin-bottom: 30px;
-    line-height: 25px;
-}
 .second--banner--img1{
     height: 450px;
     background-image: url('../images/f4.jpg');
@@ -179,12 +175,24 @@ header .line{
     background-size: cover;
     background-position: left
 }
-.third--banner--quote{
-    margin-bottom: 30px ;
-    line-height: 25px;
-}
 .third--banner--img1{
     background-image: url('../images/f5.jpg');
     background-size: cover;
     background-position: center;
 }
+
+/*#### Fourth Banner ###################################################################*/
+.fourth--banner{
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    background-color: #e8e9ee;
+}
+.fourth--banner--content{
+    padding: 150px 80px;
+}
+
+.fourth--banner--img1{
+    background-image: url('../images/bg3.jpg');
+    background-position: left;
+}
+
