@@ -1,0 +1,64 @@
+/*#### Imports ########################################################################*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');
+
+/*#### Body ###########################################################################*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+/*#### Header #########################################################################*/
+header .line{
+    background-color: #117050;
+    height: 10px;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+/*#### Header #########################################################################*/
+.header--area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+/*#### Header Left ####################################################################*/
+.header--left img{
+    width: 64px;
+}
+
+/*#### Header Right ###################################################################*/
+.header--right{
+    display: flex;
+    align-items: center;
+}
+.header--search form{
+    display: flex;
+}
+.header--search input{
+    font-size: 16px;
+    padding: 10px 13px;
+    border: 1px solid #999999;
+    outline: none;
+    width: 100%;
+    max-width: 220px;
+}
+.header--search button{
+    border: 0;
+    background-color: transparent;
+    margin-left: -30px;
+    cursor: pointer;
+}
+.header--search button img{
+    width: 16px;
+}
+.header--menu{
+    margin-left: 50px;
+}
+.header--menu img{
+    width: 24px;
+    cursor: pointer;
+}
+
+/*####  ###################################################################*/
