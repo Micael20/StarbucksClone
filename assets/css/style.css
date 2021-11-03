@@ -1,7 +1,7 @@
-/*#### Imports ########################################################################*/
+/*Imports*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');
 
-/*#### Public #########################################################################*/
+/*Public*/
 .bar{
     background-color: #006341;
     width: 168px;
@@ -36,13 +36,13 @@ h2{
     color: #FFF;
 }
 
-/*#### Body ###########################################################################*/
+/*Body*/
 body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
 
-/*#### Header #########################################################################*/
+/*Header*/
 header .line{
     background-color: #117050;
     height: 10px;
@@ -51,19 +51,18 @@ header .line{
     max-width: 1140px;
     margin: auto;
 }
-/*#### Header #########################################################################*/
 .header--area{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
 }
-/*#### Header Left ####################################################################*/
+/*Header Left*/
 .header--left img{
     width: 74px;
 }
 
-/*#### Header Right ###################################################################*/
+/*Header Right*/
 .header--right{
     display: flex;
     align-items: center;
@@ -96,7 +95,7 @@ header .line{
     cursor: pointer;
 }
 
-/*#### Main Banner ###################################################################*/
+/*Main Banner*/
 .banner{
     background-image: url('../images/bg.jpg') ;
     background-position: center;
@@ -115,7 +114,7 @@ header .line{
     margin-right: 40px;
 }
 
-/*#### First Banner ##################################################################*/
+/*First Banner*/
 .first--banner{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -142,7 +141,7 @@ header .line{
     grid-row:  1 / 3;
 }
 
-/*#### Second Banner ##################################################################*/
+/*Second Banner*/
 .second--banner{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -164,7 +163,7 @@ header .line{
     background-position: center;
 }
 
-/*#### Third Banner ##################################################################*/
+/*Third Banner*/
 .third--banner{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -181,7 +180,7 @@ header .line{
     background-position: center;
 }
 
-/*#### Fourth Banner ###################################################################*/
+/*Fourth Banner*/
 .fourth--banner{
     display: grid;
     grid-template-columns: 450px 1fr;
@@ -195,4 +194,16 @@ header .line{
     background-image: url('../images/bg3.jpg');
     background-position: left;
 }
-
+/*Fifth Banner*/
+.fifth--banner{
+    background-image: url('../images/bg4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px; 
+}
+footer{
+    background-color: #333;
+    color: #FFF;
+    padding: 80px;
+    text-align: center;
+}
