@@ -207,3 +207,79 @@ footer{
     padding: 80px;
     text-align: center;
 }
+/* Responsiveness */
+@media (min-width: 769px) and (max-width: 1140px){
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px){
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .first--banner{
+        grid-template-columns: 2fr 1fr;
+    }
+    .second--banner{
+        grid-template-columns: 1fr 2fr;
+    }
+    .third--banner{
+        grid-template-columns: 2fr 1fr;
+    }
+    .fourth--banner{
+        grid-template-columns: 2fr 1fr;
+    }
+    .fifth--banner{
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+@media (max-width: 425px){
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .header--menu{
+        margin-left: 20px;
+    }
+    .header--search input{
+        max-width: 120px;
+    }
+    h1{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    h2{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .banner--images img{
+        width: 70px;
+        height: 70px;
+        border: 3px solid #117050;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    .first--banner,
+    .second--banner,
+    .third--banner,
+    .fourth--banner{
+        grid-template-columns: 1fr;
+    }
+    .first--banner--content,
+    .second--banner--content,
+    .third--banner--content,
+    .fourth--banner--content{
+        padding: 40px;
+    }
+    .fifth--banner{
+        height: 200px;
+    }
+    footer{
+        font-size: 12px;
+        padding: 40px 20px;
+    }
+}
